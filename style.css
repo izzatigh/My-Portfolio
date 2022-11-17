@@ -1,0 +1,38 @@
+body {
+    color: wheat;
+    padding: 0;
+    margin: 0;
+}
+
+#background {
+    z-index: -1;
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    opacity: 0.5;
+    top: 0;
+    left: 0;
+    background-color: black;
+}
+
+#container {
+    background: rgba(0,0,0,0.4);
+    border-radius: 5px;
+    margin: 32px;
+}
+
+#aboutme {
+    padding: 32px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.item {
+    border-radius: 5px;
+    padding: 8px;
+    background: rgba(199, 113, 113, 0.2);
+}
+
+/* body * {
+    background: rgba(255,255,255,0.3);
+} */
